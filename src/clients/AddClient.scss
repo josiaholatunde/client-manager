@@ -1,0 +1,36 @@
+form {
+    width: 80%; 
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0 auto;
+    .form-header {
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: .7rem;
+        label {
+            padding: .3rem 0;
+        }
+        input {
+            height: 1.9rem;
+            border-radius: .1rem;
+            border: .7px solid #ccc;
+            padding: .5rem;
+        }
+        input:focus {
+            outline: none;
+        }
+    }   
+}
+.btn-primary {
+    background: #117bf3;
+    border: 1px solid #117bf3;
+    border-radius: .1rem;
+    width: 100%; 
+    color: #fff;
+    padding: .5rem;
+    cursor: pointer;
+}

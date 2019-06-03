@@ -1,0 +1,17 @@
+nav {
+    background: #117bf3;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul {
+            display: flex;
+            li{
+                padding: 1rem; 
+                a {
+                    margin: 0 .4rem;
+                }
+            }
+        }
+    }
+}
